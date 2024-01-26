@@ -17,12 +17,12 @@ ensure snipe-jailblips
 ```lua
 -- source is the player who is jailed
 -- name is the name of the player who is jailed
-exports["snipe-jailblips"]:AddPrisoner(source, name) -- Adds the blip for the player who is jailed
+exports["snipe-prisonerblips"]:AddPrisoner(source, name) -- Adds the blip for the player who is jailed
 ```
 
 ```lua
 -- source is the player who is jailed
-exports["snipe-jailblips"]:RemovePrisoner(source) -- Removes the blip for the player who is jailed
+exports["snipe-prisonerblips"]:RemovePrisoner(source) -- Removes the blip for the player who is jailed
 ```
 
 # Example
@@ -40,10 +40,10 @@ RegisterNetEvent('prison:server:SetJailStatus', function(jailTime)
             Player.Functions.SetJob("unemployed")
             TriggerClientEvent('QBCore:Notify', src, Lang:t("info.lost_job"))
         end
-        exports["snipe-jailblips"]:AddPrisoner(src, Player.PlayerData.charinfo.firstname .. ' ' .. Player.PlayerData.charinfo.lastname) -- Added
+        exports["snipe-prisonerblips"]:AddPrisoner(src, Player.PlayerData.charinfo.firstname .. ' ' .. Player.PlayerData.charinfo.lastname) -- Added
     else
         GotItems[source] = nil
-        exports["snipe-jailblips"]:RemovePrisoner(src) -- Added
+        exports["snipe-prisonerblips"]:RemovePrisoner(src) -- Added
     end
 end)
 

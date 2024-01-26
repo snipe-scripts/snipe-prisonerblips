@@ -6,7 +6,7 @@ fx_version 'cerulean'
 game 'gta5'
 lua54 'yes'
 
-description "Blip System for DOC"
+description "Blip System for Prisoners"
 author "Snipe"
 version '1.0.0'
 

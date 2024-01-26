@@ -1,3 +1,7 @@
+-----------------For support, scripts, and more----------------
+--------------- https://discord.gg/AeCVP2F8h7  -------------
+---------------------------------------------------------------
+
 Config = {}
 
 Config.JobNames = {"police"} -- jobs taht are able to see the blips

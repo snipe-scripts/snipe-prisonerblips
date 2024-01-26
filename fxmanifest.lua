@@ -1,5 +1,5 @@
 -----------------For support, scripts, and more----------------
---------------- https://discord.gg/VGYkkAYVv2  -------------
+--------------- https://discord.gg/AeCVP2F8h7  -------------
 ---------------------------------------------------------------
 
 fx_version 'cerulean'

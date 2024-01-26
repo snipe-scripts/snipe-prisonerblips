@@ -1,3 +1,6 @@
+# Discord : https://discord.gg/AeCVP2F8h7
+# Store : https://snipe.tebex.io
+
 # Introduction
 
 - This script will show the blips for cops for people who are jailed
